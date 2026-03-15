@@ -522,7 +522,6 @@ export default function WMSArchitecturePage() {
                     title="Authentication"
                     subtitle="JWT · RBAC · 2FA"
                     size="lg"
-                    active
                   />
                   <FlowConnector label="Protects All Services" />
 
@@ -537,7 +536,6 @@ export default function WMSArchitecturePage() {
                       icon={Package}
                       title="Inventory"
                       subtitle="Stock & SKUs"
-                      active
                     />
                     <div className="w-6 h-px bg-white/10" />
                     <ArchNode
@@ -1130,8 +1128,8 @@ export default function WMSArchitecturePage() {
                     End Users
                   </p>
                   <div className="flex flex-wrap justify-center gap-4">
-                    <ArchNode icon={Monitor} title="Web App" subtitle="Admins · Managers" active />
-                    <ArchNode icon={Smartphone} title="Mobile App" subtitle="Workers · Drivers" active />
+                    <ArchNode icon={Monitor} title="Web App" subtitle="Admins · Managers" />
+                    <ArchNode icon={Smartphone} title="Mobile App" subtitle="Workers · Drivers" />
                     <ArchNode icon={Globe} title="External APIs" subtitle="ERP · Partners" />
                   </div>
 
@@ -1205,7 +1203,7 @@ export default function WMSArchitecturePage() {
                     Data & Messaging Layer
                   </p>
                   <div className="flex flex-wrap justify-center gap-3">
-                    <ArchNode icon={Database} title="PostgreSQL" subtitle="Primary — Multi-AZ" size="lg" active />
+                    <ArchNode icon={Database} title="PostgreSQL" subtitle="Primary — Multi-AZ" size="lg" />
                     <ArchNode icon={Zap} title="Redis" subtitle="Cache · Queue · Pub/Sub" />
                     <ArchNode icon={Database} title="MongoDB" subtitle="IoT · Logs" />
                     <ArchNode icon={Search} title="Elasticsearch" subtitle="Search · Analytics" />
